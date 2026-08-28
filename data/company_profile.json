@@ -1,0 +1,93 @@
+{
+  "id": "company-andinas-001",
+  "companyName": "Industrias Manufacturas Andinas S.A.",
+  "industry": "Manufactura Metalmecánica y Mobiliario Industrial",
+  "businessSummary": "Empresa líder en diseño y fabricación de escritorios ejecutivos, mesas modulares y sistemas de estanterías industriales. Operamos con 2 plantas de producción especializadas y un centro de distribución regional.",
+  "headquarters": "Bogotá / Medellín",
+  "currency": "USD",
+  "plants": [
+    {
+      "id": "plant-1",
+      "name": "Planta Principal de Ensamble y Mecanizado",
+      "capacityHoursPerWeek": 160,
+      "laborWorkers": 24,
+      "operatingCostPerHour": 45
+    },
+    {
+      "id": "plant-2",
+      "name": "Taller Especializado de Acabados y Pintura Electrostática",
+      "capacityHoursPerWeek": 120,
+      "laborWorkers": 14,
+      "operatingCostPerHour": 38
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Escritorio Ejecutivo Premium",
+      "sku": "DESK-EXEC-01",
+      "sellingPrice": 350,
+      "directCost": 190,
+      "netMargin": 160,
+      "maxWeeklyDemand": 50,
+      "minWeeklyCommitment": 10
+    },
+    {
+      "id": "prod-2",
+      "name": "Mesa de Trabajo Modular",
+      "sku": "TABLE-MOD-02",
+      "sellingPrice": 240,
+      "directCost": 130,
+      "netMargin": 110,
+      "maxWeeklyDemand": 80,
+      "minWeeklyCommitment": 15
+    },
+    {
+      "id": "prod-3",
+      "name": "Silla Ergonómica Pro",
+      "sku": "CHAIR-ERG-03",
+      "sellingPrice": 160,
+      "directCost": 95,
+      "netMargin": 65,
+      "maxWeeklyDemand": 100,
+      "minWeeklyCommitment": 0
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-1",
+      "name": "Horas de Carpintería y Corte CNC",
+      "totalAvailableWeekly": 240,
+      "unit": "horas",
+      "costPerUnit": 25,
+      "criticality": "Alta"
+    },
+    {
+      "id": "res-2",
+      "name": "Horas de Pintura y Secado en Horno",
+      "totalAvailableWeekly": 180,
+      "unit": "horas",
+      "costPerUnit": 30,
+      "criticality": "Alta"
+    },
+    {
+      "id": "res-3",
+      "name": "Láminas de Acero Galvanizado 2mm",
+      "totalAvailableWeekly": 500,
+      "unit": "láminas",
+      "costPerUnit": 18,
+      "criticality": "Media"
+    },
+    {
+      "id": "res-4",
+      "name": "Madera Roble Seleccionada Tratada",
+      "totalAvailableWeekly": 350,
+      "unit": "m²",
+      "costPerUnit": 22,
+      "criticality": "Media"
+    }
+  ],
+  "strategicPriorities": "Maximizar el margen de contribución semanal total de la planta, garantizando el cumplimiento irrestricto de las cuotas mínimas contractuales con clientes corporativos y respetando los límites de horas máquina para evitar costos de sobretiempo no presupuestados.",
+  "customPolicies": "1. Política de Calidad: No superar la capacidad nominal de horneado en un 100%.\n2. Política Comercial: Cumplir siempre los contratos de suministro institucional antes de asignar capacidad a pedidos minoristas.\n3. Seguridad Ocupacional: Mantener un factor de holgura operativa del 5% en mantenimientos preventivos.",
+  "updatedAt": "2026-08-28T20:41:29.690Z"
+}
